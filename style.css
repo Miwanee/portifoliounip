@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+
+body{
+    background-image: linear-gradient(to top, #FCB6CA 60%, #A77D89); 
+    overflow-x: hidden;
+    background-attachment: fixed;
+}
+.menu{
+    
+    margin: auto;
+    height: 11em;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 10px 10px 10px 10px;
+}
+.principal{
+    margin: 10px 10px 10px 10px;
+    color: aliceblue;
+    text-align: center;
+    font: normal 200 2em Oswald;
+}
+.abas{
+    color: white;
+    display: flex;
+    margin: 10px 10px 10px 10px;
+}
+.element{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.sobremim{
+    margin: 40px 11px 0px 10px;
+    padding: 10px;
+    color: white;
+}
+.sobremim:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.7s;
+    border-radius: 10px;
+}
+.redessociais{
+    margin: 40px 11px 0px 10px;
+    padding: 10px;
+}
+.redessociais:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.7s;
+    border-radius: 10px;
+}
+.curiosidades{
+    background-color: rgba(0, 255, 0, 0);
+    margin: 40px 11px 0px 10px;
+    padding: 10px;
+}
+.curiosidades:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.7s;
+    border-radius: 10px;
+}
+.certificados{
+    background-color: rgba(0, 255, 0, 0);
+    margin: 40px 11px 0px 10px;
+    padding: 10px;
+}
+.certificados:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    transition-duration: 0.7s;
+}
+.projetos{
+    background-color: rgba(255, 0, 0, 0);
+    margin: 40px 11px 0px 10px;
+    padding: 10px;
+}
+.projetos:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.7s;
+    border-radius: 10px;
+}
+
+.divp{
+    width: 60em;
+    height: 18em;
+}
+
+.rodape{
+    background-image: linear-gradient(to bottom, #FCB6CA 45%, #A77D89 );
+    margin: 90px 0px -18px 0px;
+    background-position:bottom;
+    margin: 150px 0px -10px 0px;
+    height: 11em;
+    display: flex;
+    flex-direction: column;
+}
+
+.fnav{
+    margin:auto;
+    
+}
+
+.form{
+    margin: -60px 0px 0px 0px;
+}
+
+#botao1{
+    width: 36%;
+    margin: 4px 5px 5px 6px;
+    background-color: #A77D89;
+}
+
+.credito{
+    margin: auto;
+}
+

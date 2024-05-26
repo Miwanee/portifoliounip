@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+.mlistas{
+    backdrop-filter: blur(20px);
+    width: 100em;
+    height: 30em;
+    border-radius: 50px;
+    margin: auto;
+    background-color: rgba(0, 0, 54, 0.418);
+}
+.titlecuriosidades{
+    color: aliceblue;
+    text-align: center;
+    font: 500 2em oswald;
+}
+.curiosidade{
+    display: flex;
+    justify-content: center;
+}
+.games{
+    color: aliceblue;
+    width: 20em;
+    height: 30em;
+    margin-left: 100px;     
+}
+.titlegames{
+    color: aliceblue;
+    text-align: center;
+    font: 200 2em oswald;
+}
+.listajogos{
+    color: aliceblue;
+}
+.jogos{
+    margin-left: 90px;
+}
+.textgames{
+    color: aliceblue;
+    font: 400 1em Roboto;
+}
+.coisasquegosto{
+    color: aliceblue;
+    margin-left: 199px;
+}
+.titlecoisasquegosto{
+    color: aliceblue;
+    font: 200 2em oswald;
+}
+.textcoisasquegosto{
+    font: 400 1em Roboto;
+    color: aliceblue;
+}
+.planejamentos{ 
+    color: aliceblue;
+    width: 20em;
+    height: 30em;
+    margin-left: 250px;
+}
+.titleplanejamentos{
+    color: aliceblue;
+    font: 200 2em oswald;
+    text-align: center;
+}
+.textplanejamentos{
+    text-align: justify;
+}

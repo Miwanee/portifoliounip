@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Luiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lista.css">
+    <link rel="shortcut icon" href="./Imagens/favicon.ico" type="image/x-icon">
+    <style>
+        .preferencias{
+            background-color: aliceblue;
+            color: black;
+            border-radius: 10px;
+        }
+    </style>
+    
+</head>
+<body>
+    <header class="menu">
+        <nav class="principal">Portifólio do Miguel</nav>
+        <nav class="abas">
+            <nav class="element">
+                <a href="Siteunip.html">
+                    <p class="sobremim">SOBRE MIM</p>
+                </a>
+            </nav>
+            <nav class="element">
+                <a href="redessociais.html">
+                    <p class="redessociais">REDES SOCIAIS</p>
+                </a>
+            </nav>
+            <nav class="element">
+                <a href="lista.html">
+                    <p class="curiosidades">CURIOSIDADES</p>
+                </a>
+            </nav>
+        </nav>
+    </header>
+    
+    <main class="mlistas">
+        <h2 class="titlecuriosidades">Algumas curiosidades sobre mim</h2>
+        <div class="curiosidade">
+            <div class="games">
+                <h2 class="titlegames">Principais jogos que eu jogo</h2>
+                <ul class="listajogos">
+                    <li class="jogos">valorant</li>
+                    <li class="jogos">minecraft</li>
+                    <li class="jogos">roblox</li>
+                    <li class="jogos">Genshin Impact</li>
+                    <li class="jogos"><del>Roleta russa</del></li>
+                    <li class="jogos"><del>Jogo do pão</del></li>
+                </ul>
+                <p class="textgames">Com certeza são meus favoritos</p>
+            </div>
+            <div class="coisasquegosto">
+                <h2 class="titlecoisasquegosto">Coisas que eu gosto</h2>
+                <ul class="listacoisasquegosto">
+                    <li class="elementoscoisas">Jogar</li>
+                    <li class="elementoscoisas">Estudar</li>
+                    <li class="elementoscoisas">Namorado da Dudaou&#x1F496</li>
+                    <li class="elementoscoisas">Animes</li>
+                    <li class="elementoscoisas">Programação</li>
+                    <li class="elementoscoisas">Bocchi The Rock(Sou literalmente ela)</li>
+                </ul>
+                <p class="textcoisasquegosto">No geral gosto de coisas simples</p>
+            </div>
+            <div class="planejamentos">
+                <h2 class="titleplanejamentos">
+                    Fato Curioso
+                </h2>
+                <p class="textplanejamentos">Eu sou o Miwane, sou uma das Personalidades do Miguel. Brincadeiras a parte Miwane é meu nickname nos jogos ele nasceu quando eu quis criar um nick mais simples meu nick vou evoluindo comvorme o tempo passava a progressão foi mais ou menos assim: Miguel_Wayne &RightArrow; Mi_Wayne &rightarrow; Miwane_ &RightArrow; Miwane</p>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="rodape">
+        <nav class="fnav">
+            <nav class="form">
+                <h2>Contate-Me</h2>
+                <form autocomplete="off">
+                    <p>
+                        <label for="inome">Nome:</label>
+                        <input type="text" name="nome" id="inome" required size="15">
+                    </p>
+                    <p>
+                        <label for="iemail">E-Mail:</label>
+                        <input type="email" name="E-Mail" id="iemail" required size="15">
+                    </p>
+                    <p>
+                        <label for="imensagem">Mensagem:</label>
+                        <input type="text" name="mensagem" id="imensagem" size="15">
+                    </p>
+                    <button id="botao1" onclick="funcao1()"><p id="botao2" onclick="funcao2()">ENVIAR</p></button>
+                </form>
+            </nav>
+            <nav class="credito">
+                <p class="creditos">Site Desenvolvido por <a href="https://twitter.com/Miwane_" target="_blank" class="criador">Miwane</a> e <a href="https://www.instagram.com/miguellui.z/" target="_blank" class="criador">Miguel Luiz</a></p>
+            </nav>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

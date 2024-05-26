@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Luiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="siteunip.css">
+    <style>
+        .sobremim{
+            background-color: aliceblue;
+            color: black;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="menu">
+        <nav class="principal">Portifólio do Miguel</nav>
+        <nav class="abas">
+            <nav class="element">
+                <a href="Siteunip.html">
+                    <p class="sobremim">SOBRE MIM</p>
+                </a>
+            </nav>
+            <nav class="element">
+                <a href="redessociais.html">
+                    <p class="redessociais">REDES SOCIAIS</p>
+                </a>
+            </nav>
+            <nav class="element">
+                <a href="lista.html">
+                    <p class="curiosidades">CURIOSIDADES</p>
+                </a>
+            </nav>
+        </nav>
+    </header>
+    
+    <main class="mhome">
+        <div class="div1">
+            
+                   
+                <div class="divp">
+                    <h2 class="nome">Miguel Luiz Da Silva</h2>
+                    <p class="texto1">Prazer sou Miguel ou como alguns me chamam, <em>Miwane</em>. tenho 18 anos, Atualmente estou cursando a faculdade de ciencia da computação na unip. Trabalho numa empresa de segurança a <ins>Suporte Segurança</ins> no setor de monitoramento. Meus passatempos são assistir animes e jogar online</p>
+                </div>
+            
+                <div class="img">
+                    <img class="img" src="./Imagens/miguel.jpg" alt="">
+                </div>
+            
+        </div>
+    </main>
+    
+    
+    
+    <footer class="rodape">
+        <nav class="fnav">
+            <nav class="form">
+                <h2>Contate-Me</h2>
+                <form autocomplete="off">
+                    <p>
+                        <label for="inome">Nome:</label>
+                        <input type="text" name="nome" id="inome" required size="15">
+                    </p>
+                    <p>
+                        <label for="iemail">E-Mail:</label>
+                        <input type="email" name="E-Mail" id="iemail" required size="15">
+                    </p>
+                    <p>
+                        <label for="imensagem">Mensagem:</label>
+                        <input type="text" name="mensagem" id="imensagem" size="15">
+                    </p>
+                    <button id="botao1" onclick="funcao1()"><p id="botao2" onclick="funcao2()">ENVIAR</p></button>
+                </form>
+            </nav>
+            <nav class="credito">
+                <p class="creditos">Site Desenvolvido por <a href="https://twitter.com/Miwane_" target="_blank" class="criador">Miwane</a> e <a href="https://www.instagram.com/miguellui.z/" target="_blank" class="criador">Miguel Luiz</a></p>
+            </nav>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+    </body>
+</html>
